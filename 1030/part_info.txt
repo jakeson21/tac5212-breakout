@@ -1,0 +1,9 @@
+Manufacturer=Keystone Electronics
+PartNumber=1030
+PartCategory=Test Point
+PackageCategory=Other
+PinCount=1
+Version=1.3
+Released=2021-03-08 11:16:56
+Downloaded=2025-08-18 03:13:05
+3D=Y
