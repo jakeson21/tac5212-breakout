@@ -101,7 +101,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -490,6 +490,15 @@
       },
       {
         "bus_width": 12,
+        "line_style": 0,
+        "name": "AGND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.254,
         "diff_pair_width": 0.254,
@@ -498,7 +507,7 @@
         "microvia_drill": 0.254,
         "name": "AIN_OUT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(0, 0, 132)",
         "track_width": 0.254,
         "via_diameter": 0.508,
@@ -515,7 +524,7 @@
         "microvia_drill": 0.254,
         "name": "Ground",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.254,
         "via_diameter": 0.508,
@@ -532,7 +541,7 @@
         "microvia_drill": 0.254,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.254,
         "via_diameter": 0.508,
@@ -549,7 +558,7 @@
         "microvia_drill": 0.254,
         "name": "Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 194, 0)",
         "track_width": 0.254,
         "via_diameter": 0.508,
@@ -627,7 +636,11 @@
       },
       {
         "netclass": "Ground",
-        "pattern": "GND*"
+        "pattern": "GND"
+      },
+      {
+        "netclass": "AGND",
+        "pattern": "AGND"
       }
     ]
   },

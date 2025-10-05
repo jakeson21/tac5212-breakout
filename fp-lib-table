@@ -4,4 +4,5 @@
   (lib (name "footprints_2")(type "KiCad")(uri "${KIPRJMOD}/1030/KiCad")(options "")(descr ""))
   (lib (name "SparkFun-Qwiic")(type "KiCad")(uri "${KIPRJMOD}/KiCADv6/SparkFun-Qwiic.pretty")(options "")(descr ""))
   (lib (name "Connectors_JST")(type "KiCad")(uri "${KIPRJMOD}/KiCADv6/Connectors_JST.pretty")(options "")(descr ""))
+  (lib (name "Headphone_Jack")(type "KiCad")(uri "${KIPRJMOD}/KiCADv6/54-00178")(options "")(descr ""))
 )
